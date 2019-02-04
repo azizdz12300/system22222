@@ -1718,7 +1718,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['-inv','-help'];	
+    var setGame = ['-help'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2500,7 +2500,7 @@ client.on("guildMemberAdd", member => {
 })
 
 client.on('message', message => {
-        if (message.content === "-inv") {
+        if (message.content === "-+-5443654324") {
             if(!message.channel.guild) return;
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
